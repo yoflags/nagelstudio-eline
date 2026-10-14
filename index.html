@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nagelstudio Eline</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    color: #3b2f33;
+    background: linear-gradient(135deg, #fbe9ee 0%, #f6e3f3 50%, #e8e4fa 100%);
+  }
+  .card {
+    width: 100%;
+    max-width: 460px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 24px;
+    padding: 48px 36px;
+    text-align: center;
+    box-shadow: 0 20px 50px rgba(120, 80, 110, 0.15);
+  }
+  .dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 24px;
+  }
+  .dots span {
+    width: 14px;
+    height: 20px;
+    border-radius: 7px 7px 5px 5px;
+  }
+  .dots span:nth-child(1) { background: #f4a6b8; }
+  .dots span:nth-child(2) { background: #d9a7e0; }
+  .dots span:nth-child(3) { background: #b7a9ee; }
+  .dots span:nth-child(4) { background: #f4a6b8; }
+  .dots span:nth-child(5) { background: #d9a7e0; }
+  h1 {
+    margin: 0 0 8px;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  .sub {
+    margin: 0 0 28px;
+    color: #9a7a8a;
+    font-size: 0.95rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  p {
+    margin: 0 0 14px;
+    line-height: 1.65;
+    color: #5a4a50;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 18px;
+    padding: 14px 28px;
+    background: #0a66c2;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 999px;
+    box-shadow: 0 8px 20px rgba(10, 102, 194, 0.3);
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+  }
+  .btn:hover {
+    background: #0856a3;
+    transform: translateY(-2px);
+    box-shadow: 0 12px 26px rgba(10, 102, 194, 0.4);
+  }
+  .btn:focus-visible { outline: 3px solid #9cc7f0; outline-offset: 3px; }
+  .btn svg { width: 22px; height: 22px; fill: currentColor; }
+</style>
+</head>
+<body>
+<main class="card">
+  <div class="dots" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+  <h1>Nagelstudio Eline</h1>
+  <div class="sub">Gestopt met haar bedrijf</div>
+  <p>Nagelstudio Eline is niet meer actief. Bedankt voor het vertrouwen en de fijne jaren!</p>
+  <p>Wil je contact houden met Eline?</p>
+  <a class="btn" href="https://www.linkedin.com/" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+    Bekijk Eline op LinkedIn
+  </a>
+</main>
+</body>
+</html>
